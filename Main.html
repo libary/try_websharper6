@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Welcome!</title>
+    <meta ws-replace="meta" />
+</head>
+
+<body>
+    <div class="container">
+        <div ws-template="Field">
+            Hello, ${Name}!
+        </div>
+        <ws-Field>
+            <Name>User1</Name>
+        </ws-Field>
+        <ws-Field>
+            <Name>User2</Name>
+        </ws-Field>
+    </div>
+    <script ws-replace="scripts"></script>
+</body>
+</html>
